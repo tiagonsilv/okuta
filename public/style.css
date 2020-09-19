@@ -132,7 +132,7 @@ header p {
   background-color: transparent;
   width: 80%;
   margin: 0 auto;
-  margin-top:5vh;
+  margin-top:7vh;
 }
 
 .logo {
@@ -210,6 +210,7 @@ header p {
 .overlay .head {
   border-bottom: 1px solid #ddd;
   margin:3%;
+  margin-top:5vh;
 }
 
 .overlay__content {
@@ -234,7 +235,7 @@ header p {
 .overlay .close {
   position: absolute;
   right: 5%;
-  top: 1.5%;
+  top: 6vh;
   color: #24282B;
   cursor:pointer;
   font-weight:normal;
