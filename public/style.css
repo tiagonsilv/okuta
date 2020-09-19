@@ -6,12 +6,33 @@
   box-sizing: border-box;
 }
 
+.blm {
+  background:#101010;
+  position:absolute;
+  top:0;
+  color:#fff;
+  text-align:center;
+  width:100%;
+  padding:1%;
+  height:5vh;
+  z-index: 1;
+}
+
+.blm a {
+  color: #4F79F3;
+  text-decoration: underline; 
+}
+
+.blm a:hover {
+  color:#2A5CE7;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 header {
-  height: 85vh;
+  height: 89vh;
   background: url('/public/images/header_new.jpg');
   background-size: 100vw 90vh;
   color:#fff;
@@ -31,9 +52,10 @@ header {
 header img.school {
   position: absolute;
   left:0;
-  bottom:13vh;
+  bottom:8vh;
   height:50vh;
   width: auto;
+  transform: rotateZ(5deg);
 }
 
 header .content {
@@ -110,6 +132,7 @@ header p {
   background-color: transparent;
   width: 80%;
   margin: 0 auto;
+  margin-top:5vh;
 }
 
 .logo {
@@ -248,7 +271,7 @@ header p {
     transform: scaleX(-1);
     right:0!important;
     left:initial;
-    bottom:18vh;
+    bottom:14.5vh;
   }
 
   header .content {
@@ -333,7 +356,7 @@ header p {
 
 @media only screen and (max-width: 500px ) {
   header img.school {
-    height:30vh;
+    height:40vh;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     right:0!important;

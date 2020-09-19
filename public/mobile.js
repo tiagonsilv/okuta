@@ -10,5 +10,10 @@ menuOpen.addEventListener("click", () => {
 
 menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
-  doc.getElementsByClassName('dark_overlay')[0].style.display = "none"
+  doc.getElementsByClassName('dark_overlay')[0].style.display = "none";
+});
+
+doc.getElementsByClassName('dark_overlay')[0].addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
+  doc.getElementsByClassName('dark_overlay')[0].style.display = "none";
 });
