@@ -1,0 +1,25 @@
+{
+  "name": "okuta",
+  "version": "1.0.0",
+  "description": "A better way to teach & learn.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.io/Sqwwy/okuta"
+  },
+  "keywords": [
+    "schooling",
+    "teaching",
+    "learning"
+  ],
+  "author": "Sawyer",
+  "license": "MIT"
+}
