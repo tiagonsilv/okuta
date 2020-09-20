@@ -13,8 +13,7 @@
   color:#fff;
   text-align:center;
   width:100%;
-  padding:1%;
-  height:5vh;
+  padding:1vh 0 1vh 0;
   z-index: 1;
 }
 
@@ -261,6 +260,41 @@ header p {
   display:none;
 }
 
+/* Columns */
+
+.col {
+  float: left;
+  width: 40%;
+  height: 300px;
+  margin: 1% 5% 1% 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  justify-content: center;
+}
+
+.col h1 {
+  font-size: 220%;
+  font-weight: 800;
+  margin-left:1vw;
+  color:#24282B;
+}
+
+.col p {
+  line-height:5vh;
+  font-size:110%;
+  margin-left:1vw;
+  margin-top:3vh;
+}
+
+.col img {
+  width:100%;
+  height:100%;
+}
+
 @media only screen and (max-width: 1025px) {
   .nav_head {
     width: 90vw;
@@ -356,6 +390,13 @@ header p {
 }
 
 @media only screen and (max-width: 500px ) {
+
+  .col {
+    float: none;
+    display: block;
+    width:100%;
+  }
+
   header img.school {
     height:40vh;
     -webkit-transform: scaleX(-1);
